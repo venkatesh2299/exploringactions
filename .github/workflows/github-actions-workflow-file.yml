@@ -62,7 +62,6 @@ jobs:
           ls ${{ runner.tool_cache }}
       
       - run: echo "This job's status is ${{ job.status }}."
-
   Second-Job:
     name: The second job running on another runner
     runs-on: self-hosted
